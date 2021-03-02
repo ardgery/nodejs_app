@@ -1,0 +1,26 @@
+{
+  "name": "nodejs_app",
+  "version": "1.0.0",
+  "description": "NodeJS Crash Course",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ardgery/nodejs_app.git"
+  },
+  "author": "Gery",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ardgery/nodejs_app/issues"
+  },
+  "homepage": "https://github.com/ardgery/nodejs_app#readme",
+  "dependencies": {
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
